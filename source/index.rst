@@ -7,8 +7,5 @@ instructie template
 
    introductie
    benodigdheden
-   templategebruiken
-   templateaanpassen
-   conclusie
-   vervolg
+   basis-elementen-html
    licentie

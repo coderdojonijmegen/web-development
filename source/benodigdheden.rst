@@ -1,19 +1,26 @@
 Benodigdheden
 =============
 
-Voor het gebruik van deze template moeten de volgende programma's geïnstalleerd zijn:
+Voor deze instructies gebruiken we Visual Studio Code (VS Code) om de code te
+schrijven, en om het resultaat te bekijken. Download en installeer eerst
+VS Code:
+`Download Visual Studio Code <https://code.visualstudio.com/download>`_
 
- - Python 2.7/3.6
- - Sphinx
- - sphinx-rtd-theme
+Download nu de HTML Preview extensie:
+`Download HTML Preview Extensie <https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode>`_
+-> Download Extension en installeer als volgt:
 
-Installatie onder Ubuntu:
+.. image:: imgs/vscode_extensions.png
+   :height: 250px
 
-.. code-block:: bash
+1. Ga naar het Extensions menu
+2. Klik op de 3 puntjes en kies `Install from VSIX`
 
-   apt install python3 python3-pip
-   git clone https://github.com/coderdojonijmegen/instructie_template.git
-   cd instructie_template
-   pip3 install -r requirements.txt
+Om een html-pagina te laten zien in VS Code moet je op het `preview` icoon
+klikken, dit bevindt zich rechtsboven in het scherm (let op: het is alleen
+zichtbaar als je een .html open hebt, niet bij bijvoorbeeld een .txt):
 
-Intellij ondersteunt color-coding en code-completion voor reStructuredText middels een plugin.
+.. image:: imgs/vscode_preview.png
+   :height: 50px
+
+Je bent nu klaar om te beginnen met de instructies!
