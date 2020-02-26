@@ -1,4 +1,4 @@
-instructie template
+Web development
 ===================
 
 .. toctree::

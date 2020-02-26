@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 
-project = 'instructie template'
+project = 'web development'
 
 from datetime import datetime
 current_year = datetime.now().year
