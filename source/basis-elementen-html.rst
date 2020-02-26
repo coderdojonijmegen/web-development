@@ -1,12 +1,12 @@
-Structuur van een html-pagina
+Structuur van een HTML-pagina
 =============================
 Websites worden geschreven in de taal van het internet: HTML. Er zijn veel
-verschillende "woorden" in HTML, een aantal van de belangrijkste leer je hier
+verschillende "woorden" in HTML. Een aantal van de meest gebruikte leer je hier
 kennen.
 
-Een html-pagina heeft een paar standaard elementen:
+Een HTML-pagina heeft een paar standaard elementen:
 
-.. code:: html
+.. code:: HTML
 
    <!DOCTYPE html>
 
@@ -17,6 +17,15 @@ Een html-pagina heeft een paar standaard elementen:
       <body>
       </body>
    </html>
+
+
+* HTML elementen worden aangegeven met *tags*: de naam van
+  het element tussen ``<>`` haakjes.
+* De meeste elementen hebben een *start* en een *eind* tag.
+* De eind tag heeft een *forward slash* dus ``/`` voor de naam,
+  bijvoorbeeld ``</html>``.
+* Tags worden altijd geschreven met *kleine letters*.
+
 
 <html>
 --------------------------------

@@ -1,4 +1,4 @@
-# Instructie template
+# Web development
 
 Dit archief bevat instructies voor het gebruik van de instructie template. 
 
