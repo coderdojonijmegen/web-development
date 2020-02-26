@@ -1,6 +1,6 @@
-# Instructie template
+# Instructie web development
 
-Dit archief bevat instructies voor het gebruik van de instructie template. 
+Dit archief bevat instructies voor web development. 
 
 De pagina's zijn zichtbaar via [https://coderdojonijmegen.github.io/web-development/](https://coderdojonijmegen.github.io/web-development/).
 
