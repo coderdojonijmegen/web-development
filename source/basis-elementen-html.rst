@@ -9,7 +9,6 @@ Een HTML-pagina heeft een paar standaard elementen:
 .. code:: HTML
 
    <!DOCTYPE html>
-
    <html>
       <head>
           <title></title>
@@ -26,18 +25,22 @@ Een HTML-pagina heeft een paar standaard elementen:
   bijvoorbeeld ``</html>``.
 * Tags worden altijd geschreven met *kleine letters*.
 
+De standaardelementen
+=====================
+* ``<html>``: dit is het hoofdelement van een pagina. Alle andere
+  elementen zitten binnen de ``<html></html>``
+* ``<head>``: binnen dit element wordt informatie *over* de pagina gezet.
+* ``<title>``: een van de elementen in het ``<head>`` deel.
 
-<html>
---------------------------------
+  **Opdracht**: neem de basiselementen over en geef je pagina een titel.
+  Zie je waar de titel verschijnt?
 
-<head>
---------------------------------
+* ``<body>``: binnen dit element staat alle tekst die *zichtbaar* is
+  op de pagina.
 
-<title>
---------------------------------
+  **Opdracht**: Typ eens je naam in de ``<body>`` van de pagina. Komt deze
+  inderdaad tevoorschijn?
 
-<body>
---------------------------------
 
 Koptekst/hoofdstukken
 =====================
