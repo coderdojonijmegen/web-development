@@ -16,6 +16,12 @@
     content: " ▼";
 }
 
+.blok {
+    border: 1px solid #343131;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+
 .highlight { 
     -webkit-user-select: none; 
     -webkit-touch-callout: none; 
