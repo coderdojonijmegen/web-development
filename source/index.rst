@@ -8,4 +8,5 @@ Web development
    introductie
    benodigdheden
    basis-elementen-html
+   vervolg-elementen-html
    licentie

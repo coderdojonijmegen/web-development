@@ -2,7 +2,7 @@ Basisonderdelen van een HTML-pagina
 ###################################
 
 Structuur van een pagina
-*****************************
+************************
 Websites worden geschreven in de taal van het internet: HTML. Er zijn veel
 verschillende "woorden" in HTML. Een aantal van de meest gebruikte leer je hier
 kennen.
@@ -110,6 +110,9 @@ je toevoegen aan je pagina met de ``<img>`` tag. Ook hier heb je weer een
 
 **Opdracht**: Verander bij de vorige opdracht de tekst in onderstaand logo
 (download het en sla het op in de map waar ook je .html pagina staat). Klik dan
-op het plaatje om de link uit te proberen. Let op: het is een *.png* bestand.
+op het plaatje om de link uit te proberen.
+
+Tip 1: het is een *.png* bestand.
+Tip 2: zet in de link *https://* voor de naam van de website.
 
 .. image:: imgs/logo_coderdojo_nijmegen.png
