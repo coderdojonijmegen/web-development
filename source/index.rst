@@ -9,4 +9,6 @@ Web development
    benodigdheden
    basis-elementen-html
    vervolg-elementen-html
+   basis-elementen-stijl
    licentie
+   html-kleuren
