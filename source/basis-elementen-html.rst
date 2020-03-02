@@ -1,5 +1,5 @@
-Basisonderdelen van een HTML-pagina
-###################################
+Onderdelen van een HTML-pagina (basis)
+######################################
 
 Structuur van een pagina
 ************************
@@ -37,9 +37,9 @@ De standaardonderdelen
 * ``<title>``: een van de onderdelen in het ``<head>`` deel.
 
   **Opdracht** Neem de basisonderdelen over in een nieuw bestand en sla het op
-  als .html. Geef je pagina nu een titel en bekijk de preview. Zie de
-  titel ergens verschijnen? Hint: je moet het hiervoor in een echte browser
-  openen.
+  als html-bestand (bijvoorbeeld *ninja.html*). Geef je pagina nu een titel en
+  bekijk de preview. Zie de titel ergens verschijnen? Hint: je moet het
+  hiervoor in een echte browser openen.
 
 * ``<body>``: binnen dit onderdeel staat alle tekst die *zichtbaar* is
   op de pagina.

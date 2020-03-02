@@ -15,7 +15,7 @@ Namen
 
 Er zijn 140 kleuren die een eigen naam hebben:
 
-.. image:: imgs/SVG_Recognized_color_keyword_names.svg
+.. image:: imgs/recognized_color_keyword_names.svg
    :height: 250px
 
 
@@ -61,3 +61,8 @@ De kleuren van de RGB-voorbeelden zijn in HEX code
 +----------+------------+
 | ADD8E6   | lichtblauw |
 +----------+------------+
+
+|
+
+Bronvermelding afbeelding:
+`SVG_Recognized_color_keyword_names by Monaneko <https://commons.wikimedia.org/wiki/File:SVG_Recognized_color_keyword_names.svg>`_

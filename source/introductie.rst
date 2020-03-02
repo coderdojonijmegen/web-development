@@ -1,14 +1,20 @@
 Introductie
 ===========
 
-`CoderDojo Nijmegen <https://coderdojo-nijmegen.nl>`_ gebruikt voor haar instructies `reStructuredText <https://en.wikipedia.org/wiki/ReStructuredText>`_, een 
-plain-text markup taal enigzins vergelijkbaar met MarkDown markup. Gecombineerd met `Sphinx <https://www.sphinx-doc.org/>`_ kun je op relatief eenvoudige 
-wijze professioneel uitziende documentatie maken. Ondersteunde formaten zijn onder andere HTML, LaTeX (voor PDF), ePub, Texinfo, man-pages en platte tekst.
+Er zijn een paar verschillende *talen* die samen voor een belangrijk deel
+bepalen wat er op websites staat (HTML), hoe ze eruit zien (CSS) en hoe ze
+werken (JavaScript).
 
-Veel open-source documentatie is geschreven met behulp van deze tool en gepubliceerd op `Read the Docs <https://readthedocs.org/>`_, zoals bijvoorbeeld 
-de documentatie van de `bootstrap-datepicker <https://bootstrap-datepicker.readthedocs.io/en/latest/>`_. 
 
-Het template van Read the Docs is ook beschikbaar voor eigen gebruik in combinatie met Sphinx en CoderDojo Nijmegen maakt daar gebruik van.
+Afhankelijk van hoeveel ervaring je al hebt met deze talen kun je beginnen
+bij de basis, of een vervolgpagina kiezen. De instructies bestaan uit een
+deel uitleg met tussendoor opdrachten om te oefenen met alle onderdelen.
 
-Deze instructie legt uit hoe de benodigde software geïnstalleerd moet worden en hoe vervolgens gebruik gemaakt kan worden van de, voor CoderDojo Nijmegen,
-aangepaste versie van de Read the Docs template.
+.. image:: imgs/html-css-js-logos.png
+
+|
+
+Bronvermelding afbeeldingen:
+`HTML logo by W3C <https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg>`_,
+`CSS logo by Rudloff <https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg>`_,
+`JS logo by Omed Habib <https://commons.wikimedia.org/wiki/File:Javascript-shield.svg>`_
