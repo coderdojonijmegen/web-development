@@ -47,12 +47,13 @@ De standaardonderdelen
   **Opdracht** Typ eens je naam in de ``<body>`` van de pagina. Komt deze
   inderdaad tevoorschijn?
 
+.. _koppen:
 
-Koptekst / hoofdstukken
-***********************
-Om verschillende niveau's aan te geven op een pagina zijn er de ``<h1>``,
-``<h2>``, ``<h3>`` (enzovoort) tags. Met deze tags kun je je pagina een
-duidelijke indeling geven.
+Koppen
+******
+Om verschillende niveau's aan te geven op een pagina kun je *koppen* gebruiken.
+Hiervoor zijn de ``<h1>``, ``<h2>``, ``<h3>`` (enzovoort) tags. Met deze tags
+kun je je pagina een duidelijke indeling geven.
 
 **Opdracht** Tot hoe ver gaan de niveau's eigenlijk? Bestaat ``<h20>``?
 
@@ -68,13 +69,25 @@ duidelijke indeling geven.
     <h4>Aarde</h4>
 
 De stijl van tekst
-**********************
+******************
 Je kunt op een aantal manieren tekst extra benadrukken: door woorden **dik** te
 maken, of `schuin`. Hiervoor kun je bijvoorbeeld de tags ``<b>`` (voor bold) en
 ``<i>`` (voor italic) gebruiken. Een aantal andere tags om extra effect aan je
-tekst te geven zijn ``<mark>`` en ``<del>``.
+tekst te geven zijn ``<mark>`` en ``<del>``. De HTML-code
 
-**Opdracht** Maak deze zin na (onder het hoofdstuk Aarde):
+.. code:: HTML
+
+  Dit is <b>dik</b>
+
+wordt dus
+
+.. cssclass:: blok
+
+  .. raw:: html
+
+    Dit is <i>schuin</i>
+
+**Opdracht** Maak deze zin na (zet 'm onder het hoofdstuk Aarde):
 
 .. cssclass:: blok
 
