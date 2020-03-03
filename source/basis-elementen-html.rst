@@ -4,8 +4,8 @@ Onderdelen van een HTML-pagina (basis)
 Structuur van een pagina
 ************************
 Websites worden geschreven in de taal van het internet: HTML. Er zijn veel
-verschillende "woorden" in HTML. Een aantal van de meest gebruikte leer je hier
-kennen.
+verschillende "woorden", of "bouwblokken", in HTML. Een aantal van de meest
+gebruikte leer je hier kennen.
 
 Een HTML-pagina heeft een paar standaard onderdelen:
 

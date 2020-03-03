@@ -1,5 +1,5 @@
-Basisstijl voor een HTML-pagina
-###############################
+Stijl toevoegen aan een HTML-pagina (basis)
+###########################################
 
 Zonder *stijl* heeft tekst op een webpagina een standaardkleur (zwarte letters
 op een witte achtergrond), standaardgrootte en standaardlettertype. Je kunt
