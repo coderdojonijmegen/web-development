@@ -37,8 +37,8 @@
   <link rel="stylesheet" href="_static/coderdojo.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Zoeken" href="search.html" />
-    <link rel="next" title="Licentie" href="licentie.html" />
-    <link rel="prev" title="Basisonderdelen van een HTML-pagina" href="basis-elementen-html.html" /> 
+    <link rel="next" title="Acties toevoegen aan een webpagina (basis)" href="basis-elementen-javascript.html" />
+    <link rel="prev" title="Onderdelen van een HTML-pagina (basis)" href="basis-elementen-html.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -86,11 +86,26 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introductie.html">Introductie</a></li>
 <li class="toctree-l1"><a class="reference internal" href="benodigdheden.html">Benodigdheden</a></li>
-<li class="toctree-l1"><a class="reference internal" href="basis-elementen-html.html">Basisonderdelen van een HTML-pagina</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basis-elementen-html.html">Onderdelen van een HTML-pagina (basis)</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Onderdelen van een HTML-pagina (vervolg)</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#nog-een-keer-de-standaardonderdelen">Nog een keer de standaardonderdelen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#blok-en-inline-onderdelen">Blok en inline onderdelen</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#blok">Blok</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#inline">Inline</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#lijsten">Lijsten</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#video-of-kaart-in-je-webpagina">Video of kaart in je webpagina</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#youtube">YouTube</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#google-maps">Google Maps</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="basis-elementen-javascript.html">Acties toevoegen aan een webpagina (basis)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basis-elementen-stijl.html">Stijl toevoegen aan een HTML-pagina (basis)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vervolg-elementen-stijl.html">Stijl toevoegen aan een HTML-pagina (vervolg)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="html-kleuren.html">Het instellen van kleuren op je webpagina</a></li>
 <li class="toctree-l1"><a class="reference internal" href="licentie.html">Licentie</a></li>
 </ul>
 
@@ -179,6 +194,79 @@ onderdelen zitten (in dit geval <code class="docutils literal notranslate"><span
 <code class="docutils literal notranslate"><span class="pre">&lt;body&gt;</span></code> tags, die worden gewoon helemaal links neergezet.</p></li>
 </ul>
 </div>
+<div class="section" id="blok-en-inline-onderdelen">
+<h2>Blok en inline onderdelen<a class="headerlink" href="#blok-en-inline-onderdelen" title="Permalink naar deze titel">¶</a></h2>
+<p>De bouwblokken van HTML zijn op verschillende manieren onder te verdelen. Eén
+manier is om te kijken naar hoe ze zich gedragen op een webpagina.</p>
+<div class="section" id="blok">
+<h3>Blok<a class="headerlink" href="#blok" title="Permalink naar deze titel">¶</a></h3>
+<p>Deze onderdelen gebruiken alle ruimte die ze kunnen pakken. Ze beginnen dan ook
+op een nieuwe regel. <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code> is zo’n onderdeel:</p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;border:solid red&quot;</span><span class="p">&gt;</span>Deze alinea is net zo breed als de pagina.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>ziet eruit als</p>
+<div class="blok"><p style="border:solid red">Deze alinea is net zo breed als de pagina.</p></div><p>Een ander belangrijk blok onderdeel is <code class="docutils literal notranslate"><span class="pre">&lt;div&gt;</span></code>, dat veel gebruikt wordt om
+verschillende stijlen toe te kunnen voegen aan verschillende stukken van de
+webpagina. Hoe dit werkt wordt uitgelegd bij het <a class="reference internal" href="vervolg-elementen-stijl.html#stijl-vervolg"><span class="std std-ref">Stijl toevoegen aan een HTML-pagina (vervolg)</span></a>.</p>
+</div>
+<div class="section" id="inline">
+<h3>Inline<a class="headerlink" href="#inline" title="Permalink naar deze titel">¶</a></h3>
+<p>Deze onderdelen gebruiken alleen de ruimte die ze nodig hebben. Een aantal
+inline onderdelen zijn we al tegengekomen om tekst te benadrukken, waaronder
+<code class="docutils literal notranslate"><span class="pre">&lt;b&gt;</span></code> en <code class="docutils literal notranslate"><span class="pre">&lt;i&gt;</span></code>. Je kunt inline onderdelen dus gebruiken <em>in</em> blok
+onderdelen. Een ander voorbeeld is <code class="docutils literal notranslate"><span class="pre">&lt;span&gt;</span></code>; dit kun je gebruiken om zelf een
+stijl te bepalen voor een deel van een regel tekst:</p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Er zit een <span class="p">&lt;</span><span class="nt">span</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;border: solid red&quot;</span><span class="p">&gt;</span>inline onderdeel<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span> in deze alinea.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>ziet eruit als</p>
+<div class="blok"><p>Er zit een <span style="border: solid red">inline onderdeel</span> in deze alinea.</p></div><p><strong>Opdracht</strong> Maak deze regel tekst zo goed mogelijk na, gebruik hierbij
+<code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code> en <code class="docutils literal notranslate"><span class="pre">&lt;span&gt;</span></code>.</p>
+<div class="blok"><p><span style="color:red">Na</span> <span style="color:orange">regen</span> <span style="color:green">komt</span> <span style="color:blue">vaak</span> <span style="color:violet">zonneschijn</span>!</p></div></div>
+</div>
+<div class="section" id="lijsten">
+<h2>Lijsten<a class="headerlink" href="#lijsten" title="Permalink naar deze titel">¶</a></h2>
+<p>Stel dat je alle kleuren van de regenboog op wilt sommen: rood, oranje, geel,
+groen, blauw, indigo en violet. Met een lijst wordt dit lekker overzichtelijk:</p>
+<div class="blok"><ul>
+  <li>rood</li>
+  <li>oranje</li>
+  <li>geel</li>
+  <li>groen</li>
+  <li>blauw</li>
+  <li>indigo</li>
+  <li>violet</li>
+</ul></div><p>Om een lijst te maken zijn er de onderdelen <code class="docutils literal notranslate"><span class="pre">&lt;ul&gt;</span></code> voor een lijst zonder
+nummers, en <code class="docutils literal notranslate"><span class="pre">&lt;ol&gt;</span></code> voor eentje met. De lijst hierboven maak je zo:</p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>rood<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>oranje<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>enzovoort<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p><strong>Opdracht</strong> Maak zelf een genummerd lijstje met alle zeven kleuren van de
+regenboog.</p>
+</div>
+<div class="section" id="video-of-kaart-in-je-webpagina">
+<h2>Video of kaart in je webpagina<a class="headerlink" href="#video-of-kaart-in-je-webpagina" title="Permalink naar deze titel">¶</a></h2>
+<div class="section" id="youtube">
+<h3>YouTube<a class="headerlink" href="#youtube" title="Permalink naar deze titel">¶</a></h3>
+<p>YouTube maakt het je heel makkelijk om een filmpje <em>in</em> je eigen webpagina te
+zetten (waarom zou dat zo zijn?). Als je naar <a class="reference external" href="https://www.youtube.com">YouTube</a> gaat en op de <em>Share</em> knop klikt, is “Embed” een
+van de keuzes die je dan hebt. De HTML-code die je ziet kun je vervolgens zo
+aan je eigen pagina toevoegen. Het HTML-onderdeel dat hiervoor gebruikt wordt
+is <code class="docutils literal notranslate"><span class="pre">&lt;iframe&gt;</span></code>, wat het eigenlijk doet is de ene webpagina laten zien <em>in</em> een
+andere.</p>
+</div>
+<div class="section" id="google-maps">
+<h3>Google Maps<a class="headerlink" href="#google-maps" title="Permalink naar deze titel">¶</a></h3>
+<p>Op dezelfde manier kun je ook een landkaart van <a class="reference external" href="https://www.google.nl/maps">Google Maps</a> toevoegen. Als je op het hamburgermenu (de drie
+horizontale streepjes) klikt kun je daarna kiezen voor “Share or embed map”.
+Daarna kun je de HTML-code (weer een <code class="docutils literal notranslate"><span class="pre">&lt;iframe&gt;</span></code>) in je pagina kopiëren.</p>
+</div>
+</div>
 </div>
 
 
@@ -189,10 +277,10 @@ onderdelen zitten (in dit geval <code class="docutils literal notranslate"><span
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="licentie.html" class="btn btn-neutral float-right" title="Licentie" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="basis-elementen-javascript.html" class="btn btn-neutral float-right" title="Acties toevoegen aan een webpagina (basis)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="basis-elementen-html.html" class="btn btn-neutral float-left" title="Basisonderdelen van een HTML-pagina" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="basis-elementen-html.html" class="btn btn-neutral float-left" title="Onderdelen van een HTML-pagina (basis)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

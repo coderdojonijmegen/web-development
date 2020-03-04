@@ -115,11 +115,24 @@ nummers, en ``<ol>`` voor eentje met. De lijst hierboven maak je zo:
 regenboog.
 
 
-Video of locatie in je webpagina
-********************************
+Video of kaart in je webpagina
+******************************
 
 YouTube
 +++++++
 
+YouTube maakt het je heel makkelijk om een filmpje *in* je eigen webpagina te
+zetten (waarom zou dat zo zijn?). Als je naar `YouTube
+<https://www.youtube.com>`_ gaat en op de *Share* knop klikt, is "Embed" een
+van de keuzes die je dan hebt. De HTML-code die je ziet kun je vervolgens zo
+aan je eigen pagina toevoegen. Het HTML-onderdeel dat hiervoor gebruikt wordt
+is ``<iframe>``, wat het eigenlijk doet is de ene webpagina laten zien *in* een
+andere.
+
 Google Maps
 +++++++++++
+
+Op dezelfde manier kun je ook een landkaart van `Google Maps
+<https://www.google.nl/maps>`_ toevoegen. Als je op het hamburgermenu (de drie
+horizontale streepjes) klikt kun je daarna kiezen voor "Share or embed map".
+Daarna kun je de HTML-code (weer een ``<iframe>``) in je pagina kopiëren.
