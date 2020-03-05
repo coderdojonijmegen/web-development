@@ -22,7 +22,7 @@ Javascript wordt voor HTML bestanden geschreven in een speciaal blok:
    </body>
    </html>
 
-Dit ziet er als volgt uit met code:
+Dit ziet er als volgt uit met code (De code wordt verder toegelicht):
 
 .. code:: HTML
 
@@ -71,7 +71,18 @@ Als we dit stukje code als volgt aanroepen:
 Dan zien we dat er 3 wordt geprint!
 We slaan hierbij het resultaat op in ``resultaat``
 en printen die vervolgens met ``console.log()``.
+Om nu de output te zien van de ``console.log()`` functie moeten we de ``console`` openen.
+Je kunt dit doen op verschillende manieren:
 
+Windows:
+
+* F12
+* Rechtermuisknop + inspecteer
+* Control+Shift+J
+
+MacOs:
+
+* Command+Option+J	
 
 Variabelen
 --------------------------------
@@ -104,7 +115,7 @@ Bij een knop gaan we `HTML` en `Javascript` combineren!
    <head>
    </head>
    <body>
-   <button> Klik op mij! </button>
+      <button> Klik op mij! </button>
    </body>
    </html>
 
@@ -130,7 +141,7 @@ Wat gebeurt er nu als je op de knop klikt?
       <head>
       </head>
       <body>
-      <button onclick="buttonClicked()"> Klik op mij! </button>
+         <button onclick="buttonClicked()"> Klik op mij! </button>
       </body>
       </html>
 
@@ -170,16 +181,50 @@ Er zijn nog veel meer mogelijkheden, maar dit is een van de simpelste.
 
 **opdracht** Kun jij nu met jouw kennis van Javascript en HTML een element toevoegen als je op een knop klikt?
 
-Voorbeeld 3: Hoevaak is iemand op je pagina geweest?
+Voorbeeld 3: Reageren op berichten van een gebruiker
 -----------------------------------------------------
 
+Met de volgende HTML code hebben we een invoer veld waar de gebruiker iets in kan typen:
 
-Afbeeldingen
-============
-=======
-Acties toevoegen aan een webpagina (basis)
-##########################################
+ .. code:: HTML
 
-.. image:: imgs/werk_in_uitvoering.png
-   :height: 150px
-   :align: center
+   <!DOCTYPE html>
+      <html>
+      <head>
+          <style>
+              #inputId {
+                  width: 300px;
+                  height: 40px;
+                  font-size: xx-large;
+              }
+
+              .container {
+                  display: flex;
+                  height: 100vh;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: blue;
+              }
+          </style>
+         <script>
+            //Javascript code hier!
+         </script>
+      </head>
+      <body class="container">
+        <span> Wat is je naam? </span>
+        <input id="inputId"> </input>
+      </body>
+      </html>
+
+
+Als de gebruiker nu iets typt, zie je alleen de tekst staan. Er gebeurt verder nog niet zo veel.
+Kun jij ervoor zorgen dat de computer terugpraat?
+
+* Voeg een knop toe aan de HTML pagina
+* Als je op de knop klikt, log dan de text die in het input veld staat met ``console.log``.
+  Om de tekst uit het invoer veld te halen kun je gebruik maken van:
+  ``const input = document.getElementById("inputId").value;``
+
+* Kun jij nu de computer ``Hallo <naam>`` laten zeggen?
+  Je kan dit doen met de functie ``alert()``, hier moet je nog wel text aan meegeven.
+  Dit is een voorbeeld: ``alert("Hoi Kevin!")``
