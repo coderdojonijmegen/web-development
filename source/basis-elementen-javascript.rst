@@ -100,7 +100,8 @@ Een veriabele resultaat maken doen we als volgt:
    let resultaat = 6; //Zo
    const resultaatConst = 6; //Of zo
 
-In veriabelen kunnen we data opslaan, dat is heel handig!
+In variabelen kunnen we data opslaan, dat is heel handig!
+
 
 Voorbeeld 1: Knop
 --------------------------------
@@ -215,7 +216,6 @@ Met de volgende HTML code hebben we een invoer veld waar de gebruiker iets in ka
         <input id="inputId"> </input>
       </body>
       </html>
-
 
 Als de gebruiker nu iets typt, zie je alleen de tekst staan. Er gebeurt verder nog niet zo veel.
 Kun jij ervoor zorgen dat de computer terugpraat?
