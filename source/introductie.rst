@@ -5,10 +5,13 @@ Er zijn een paar verschillende *talen* die samen voor een belangrijk deel
 bepalen wat er op websites staat (HTML), hoe ze eruit zien (CSS) en hoe ze
 werken (JavaScript).
 
-
 Afhankelijk van hoeveel ervaring je al hebt met deze talen kun je beginnen
 bij de basis, of een vervolgpagina kiezen. De instructies bestaan uit een
 deel uitleg met tussendoor opdrachten om te oefenen met alle onderdelen.
+
+Op de website van de Raspberry Pi Foundation zijn leuke opdrachten te vinden om
+je nieuwe kennis uit te proberen: `HTML/CSS/JS projecten
+<https://projects.raspberrypi.org/nl-NL/projects?software[]=html-css-javascript>`_.
 
 .. image:: imgs/html-css-js-logos.png
 

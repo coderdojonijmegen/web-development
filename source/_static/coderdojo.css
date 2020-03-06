@@ -17,16 +17,9 @@
 }
 
 .blok {
-    border: 1px solid #343131;
+    border: 1px solid #e1e4e5;
+    background-color: whitesmoke;
     padding: 10px;
     margin-bottom: 20px;
     }
-
-.highlight { 
-    -webkit-user-select: none; 
-    -webkit-touch-callout: none; 
-    -moz-user-select: none; 
-    -ms-user-select: none; 
-    user-select: none;    
-    color: #cc0000;
-}
+    
