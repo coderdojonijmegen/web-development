@@ -1,15 +1,17 @@
 .. _stijl-vervolg:
 
-Onderdelen van javascript (vervolg)
-#############################################
+Onderdelen van JavaScript (vervolg)
+###################################
 
-Nu je basis van javascript hebt gezien, gaan we wat verder met moeilijkere onderdelen.
+Nu je de basis van JS hebt gezien, gaan we wat verder met moeilijker
+onderdelen.
 
 Een klok maken
---------------
+**************
 .. image:: imgs/clock.png
 
-We gaan een klok maken op een ``HTML`` pagina. Je kan de volgende ``HTML`` gebruiken:
+We gaan een klok maken op een ``HTML`` pagina. Je kan de volgende ``HTML``
+gebruiken:
 
 .. code:: HTML
 
@@ -143,10 +145,10 @@ We gaan een klok maken op een ``HTML`` pagina. Je kan de volgende ``HTML`` gebru
                                         //Met getHours() krijg je de uren
                                         //Met getMinutes() krijg je de minuten
                                         //Met getSeconds() krijg je de seconden
-                                        
+
                                         //De dag hebben wij voor je gedaan!
                 dagElement.innerText = dagenInText[today.getDay()];
-                urenElement.innerText = "1";   
+                urenElement.innerText = "1";
                 minutenElement.innerText = "1";
                 secondenElement.innerText = "1";
             }
@@ -160,5 +162,6 @@ We gaan een klok maken op een ``HTML`` pagina. Je kan de volgende ``HTML`` gebru
 
     </html>
 
-De klok werkt nu nog niet.. Kan jij dit oplossen?
-In het ``<script></script>`` blok moet jij de code gaan aanpassen, daarmee kan je de klok weer aanslingeren ;) !
+De klok werkt nu nog niet.. Kan jij dit oplossen? In het ``<script></script>``
+blok moet jij de code gaan aanpassen, daarmee kun je de klok weer aanslingeren
+;) !
