@@ -22,12 +22,35 @@ De opdrachten in deze instructie beginnen met deze HTML-code:
   </body>
   </html>
 
+Dit zou er in de preview zo uit moeten zien:
+
+.. cssclass:: blok
+
+  .. raw:: HTML
+
+    <!DOCTYPE html>
+    <html>
+    <body>
+      <p>
+        Dit is de best gestijlde regel HTML ooit!
+      </p>
+      <p>
+        Hoewel, misschien is deze nog wel mooier...
+      </p>
+    </body>
+    </html>
+
 Stijl toevoegen
 ***************
 
-De makkelijkste manier om stijl toe te voegen aan je HTML is door een *style*
+De makkelijkste manier om stijl toe te voegen aan je HTML is door een ``style``
 attribuut toe te voegen aan een HTML-element, bijvoorbeeld:
-``<p style="color:red">``. In dit voorbeeld is *color* de *eigenschap* die je
+
+.. code:: HTML
+
+  <p style="color:red">Wat zou de kleur van deze tekst zijn?</p>
+
+In dit voorbeeld is *color* de *eigenschap* die je
 wilt instellen, namelijk de kleur van de tekst. De *waarde* die je de tekst
 geeft is hier *red*, dus rood.
 
