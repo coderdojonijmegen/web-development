@@ -7,11 +7,12 @@ Web development
 
    introductie
    benodigdheden
-   basis-elementen-html
-   basis-elementen-stijl
-   basis-elementen-javascript
-   vervolg-elementen-html
-   vervolg-elementen-stijl
-   vervolg-elementen-javascript
+   html-basis
+   css-basis
+   js-basis
+   html-vervolg
+   css-vervolg
+   js-vervolg
+   meer-materiaal
    html-kleuren
    licentie

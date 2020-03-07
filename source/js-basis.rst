@@ -1,5 +1,5 @@
-Onderdelen van JavaScript (basis)
-###########################################
+Actie toevoegen met JavaScript (basis)
+######################################
 
 De HTML die je net hebt geleerd is statisch.  Om hier acties aan toe te voegen,
 zoals het klikken van een knop gebruiken we JavaScript (JS). Net zoals HTML

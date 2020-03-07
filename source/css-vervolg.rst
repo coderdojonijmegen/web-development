@@ -26,8 +26,8 @@ Maak voor de opdrachten in deze instructie een HTML-bestand met deze inhoud:
   </html>
 
 
-Stijl toevoegen aan een HTML-pagina (vervolg)
-#############################################
+Stijl toevoegen met CSS (vervolg)
+#################################
 
 Tot nu toe heb je stijl toegevoegd door ``style="..."`` te gebruiken in de
 HTML-onderdelen. Dat heeft voordelen en nadelen. Het is handig dat je meteen

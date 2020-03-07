@@ -1,7 +1,5 @@
-.. _stijl-vervolg:
-
-Onderdelen van JavaScript (vervolg)
-###################################
+Actie toevoegen met JavaScript (vervolg)
+########################################
 
 Nu je de basis van JS hebt gezien, gaan we wat verder met moeilijker
 onderdelen.
