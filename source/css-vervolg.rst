@@ -57,7 +57,7 @@ HTML zich moet gedragen:
 ``<style>`` onderdeel zet? Probeer het eens. Had je gelijk?
 
 Stijl toevoegen aan sommige, maar niet alle elementen
-#####################################################
+*****************************************************
 
 Als je de opdracht van net hebt uitgevoerd, heb je gezien dat *alle* ``<p>``
 onderdelen, dus alle alinea's, rode tekst hebben. Dit is dus wat deze code
@@ -179,7 +179,7 @@ Samengevat heb je nu gezien dat je stijl kunt geven aan
 * losse onderdelen door ze een (uniek) id te geven
 
 Combineren van stijlen
-######################
+**********************
 
 Een grote kracht van CSS is dat je stijlen ook kunt combineren. Zo kun je
 meerdere eigenschappen tegelijk instellen in een CSS regel:
