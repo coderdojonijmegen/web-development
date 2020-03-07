@@ -1,0 +1,25 @@
+.toggle .header {
+    display: block;
+    clear: both;
+    cursor: pointer;
+    margin: 10px;
+}
+.toggle .header p {
+    display: inline;
+}
+
+.toggle .header:after {
+    content: " ▶";
+}
+
+.toggle .header.open:after {
+    content: " ▼";
+}
+
+.blok {
+    border: 1px solid #e1e4e5;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+    

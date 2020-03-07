@@ -1,0 +1,462 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="nl" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="nl" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Stijl toevoegen met CSS (vervolg) &mdash; web development  documentatie</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/coderdojo.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Zoeken" href="search.html" />
+    <link rel="next" title="Actie toevoegen met JavaScript (vervolg)" href="js-vervolg.html" />
+    <link rel="prev" title="Onderdelen van een HTML-pagina (vervolg)" href="html-vervolg.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> web development
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Inhoud:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introductie.html">Introductie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="benodigdheden.html">Benodigdheden</a></li>
+<li class="toctree-l1"><a class="reference internal" href="html-basis.html">Onderdelen van een HTML-pagina (basis)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="css-basis.html">Stijl toevoegen met CSS (basis)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="js-basis.html">Actie toevoegen met JavaScript (basis)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="html-vervolg.html">Onderdelen van een HTML-pagina (vervolg)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Stijl toevoegen met CSS (vervolg)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#stijl-toevoegen-aan-sommige-maar-niet-alle-elementen">Stijl toevoegen aan sommige, maar niet alle elementen</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#class">Class</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id">ID</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#combineren-van-stijlen">Combineren van stijlen</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="js-vervolg.html">Actie toevoegen met JavaScript (vervolg)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="html-kleuren.html">Het instellen van kleuren op je webpagina</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licentie.html">Licentie</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">web development</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Stijl toevoegen met CSS (vervolg)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/css-vervolg.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p id="stijl-vervolg">Maak voor de opdrachten in deze instructie een HTML-bestand met deze inhoud:</p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+   <span class="c">/* hier komt je styling! */</span>
+<span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Deze pagina gaan we stylen!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>Dit is een h2 kop<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>Dit is ook een h2 kop!<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Wat zullen we met <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>deze<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span> alinea gaan doen?<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Deze alinea wordt nog mooier dan de vorige.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>De vorige alinea&#39;s zijn <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>jaloers<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span> op mij.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Jaloers op mij zul je bedoelen!<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<div class="section" id="stijl-toevoegen-met-css-vervolg">
+<h1>Stijl toevoegen met CSS (vervolg)<a class="headerlink" href="#stijl-toevoegen-met-css-vervolg" title="Permalink naar deze titel">¶</a></h1>
+<p>Tot nu toe heb je stijl toegevoegd door <code class="docutils literal notranslate"><span class="pre">style=&quot;...&quot;</span></code> te gebruiken in de
+HTML-onderdelen. Dat heeft voordelen en nadelen. Het is handig dat je meteen
+kunt zien hoe de inhoud van je webpagina eruit komt te zien. Minder handig is
+dat je aan <em>ieder</em> stukje HTML op deze manier een stijl moet toevoegen. Dat is
+én veel werk, én wordt al snel onoverzichtelijk als je veel stijlen hebt.</p>
+<p>Het is daarom gebruikelijk bij webpagina’s om de inhoud en stijl op
+verschillende plekken neer te zetten. Een manier om dit te doen is binnen het
+<code class="docutils literal notranslate"><span class="pre">&lt;style&gt;</span></code> onderdeel. De code binnen het <code class="docutils literal notranslate"><span class="pre">&lt;style&gt;</span></code> onderdeel ziet er wat
+anders uit dan je tot nu toe gezien hebt. Om tekst rood te maken gebruikte je</p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;color:red&quot;</span><span class="p">&gt;</span>Dit stukje tekst is rood<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Binnen <code class="docutils literal notranslate"><span class="pre">&lt;style&gt;</span></code> moet je deze code schrijven, een soort <em>regel</em> voor hoe de
+HTML zich moet gedragen:</p>
+<div class="highlight-CSS notranslate"><div class="highlight"><pre><span></span><span class="nt">p</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>Opdracht</strong> Wat denk je dat er gebeurt als je dit stukje code in het
+<code class="docutils literal notranslate"><span class="pre">&lt;style&gt;</span></code> onderdeel zet? Probeer het eens. Had je gelijk?</p>
+<div class="section" id="stijl-toevoegen-aan-sommige-maar-niet-alle-elementen">
+<h2>Stijl toevoegen aan sommige, maar niet alle elementen<a class="headerlink" href="#stijl-toevoegen-aan-sommige-maar-niet-alle-elementen" title="Permalink naar deze titel">¶</a></h2>
+<p>Als je de opdracht van net hebt uitgevoerd, heb je gezien dat <em>alle</em> <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code>
+onderdelen, dus alle alinea’s, rode tekst hebben. Dit is dus wat deze code
+doet:</p>
+<ul class="simple">
+<li><p>de <em>eigenschap</em> kleur krijgt</p></li>
+<li><p>de <em>waarde</em> rood</p></li>
+<li><p>voor <em>alle</em> <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code> onderdelen</p></li>
+</ul>
+<p>Maar stel nou dat je alleen bepaalde alinea’s rood wilt maken?</p>
+<div class="section" id="class">
+<h3>Class<a class="headerlink" href="#class" title="Permalink naar deze titel">¶</a></h3>
+<p>Dat kan bijvoorbeeld door het HTML-onderdeel lid te maken van een zogenaamde
+<em>class</em>:</p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;naamvandeclass&quot;</span><span class="p">&gt;</span>Welke kleur is dit?<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>In de CSS maak je een class door een <em>punt</em> aan het begin te gebruiken:</p>
+<div class="highlight-CSS notranslate"><div class="highlight"><pre><span></span><span class="p">.</span><span class="nc">naamvandeclass</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>Opdracht</strong> Gebruik een <em>class</em> met de naam “rodealinea” om de 1e en 4e alinea
+rood te maken, dus zo:</p>
+<div class="blok"><!DOCTYPE html>
+<head>
+<style>
+  .rodealinea {
+    color: red;
+  }
+</style>
+</head>
+<body>
+  <h1>Deze pagina gaan we stylen!</h1>
+  <h2>Dit is een h2 kop</h2>
+  <div>
+    <h2>Dit is ook een h2 kop!</h2>
+      <p class="rodealinea">Wat zullen we met <span>deze</span> alinea gaan doen?</p>
+      <p>Deze alinea wordt nog mooier dan de vorige.</p>
+  </div>
+  <div>
+    <p>De vorige alinea's zijn <span>jaloers</span> op mij.</p>
+    <p class="rodealinea">Jaloers op mij zul je bedoelen!</p>
+  </div>
+</body>
+</html></div></div>
+<div class="section" id="id">
+<h3>ID<a class="headerlink" href="#id" title="Permalink naar deze titel">¶</a></h3>
+<p>Een andere manier is om een HTML-onderdeel een uniek <em>id</em> te geven:</p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;ikbenuniek&quot;</span><span class="p">&gt;</span>Welke kleur is dit?<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>In de CSS verwijs je naar een id door een <em>hashtag</em> aan het begin te gebruiken:</p>
+<div class="highlight-CSS notranslate"><div class="highlight"><pre><span></span><span class="p">#</span><span class="nn">ikbenuniek</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>Opdracht</strong> Maak de tekst van de eerste h1 kop blauw, en de 1e h2 kop groen
+(tip: je hebt hiervoor twee id’s nodig, “ikbenblauw” en “ikbengroen”):</p>
+<div class="blok"><!DOCTYPE html>
+<head>
+<style>
+  .rodealinea {
+    color: red;
+  }
+  #ikbenblauw {
+    color: blue;
+  }
+
+  #ikbengroen {
+    color: green;
+  }
+</style>
+</head>
+<body>
+  <h1 id="ikbenblauw">Deze pagina gaan we stylen!</h1>
+  <h2 id="ikbengroen">Dit is een h2 kop</h2>
+  <div>
+    <h2>Dit is ook een h2 kop!</h2>
+      <p class="rodealinea">Wat zullen we met <span>deze</span> alinea gaan doen?</p>
+      <p>Deze alinea wordt nog mooier dan de vorige.</p>
+  </div>
+  <div>
+    <p>De vorige alinea's zijn <span>jaloers</span> op mij.</p>
+    <p class="rodealinea">Jaloers op mij zul je bedoelen!</p>
+  </div>
+</body>
+</html></div><p>Samengevat heb je nu gezien dat je stijl kunt geven aan</p>
+<ul class="simple">
+<li><p>alle onderdelen van een bepaalde soort</p></li>
+<li><p>bepaalde onderdelen door ze lid te maken van een class</p></li>
+<li><p>losse onderdelen door ze een (uniek) id te geven</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="combineren-van-stijlen">
+<h2>Combineren van stijlen<a class="headerlink" href="#combineren-van-stijlen" title="Permalink naar deze titel">¶</a></h2>
+<p>Een grote kracht van CSS is dat je stijlen ook kunt combineren. Zo kun je
+meerdere eigenschappen tegelijk instellen in een CSS regel:</p>
+<div class="highlight-CSS notranslate"><div class="highlight"><pre><span></span><span class="nt">p</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+  <span class="k">font-weight</span><span class="p">:</span> <span class="kc">bold</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>Opdracht</strong> Voeg een tweede eigenschap toe aan de “rodealinea”, bijvoorbeeld
+<em>background-color</em> of <em>font-family</em>.</p>
+<p>Je kunt een onderdeel ook lid maken van meer dan één <em>class</em> (in dit voorbeeld
+heten die “rodealinea” en “box”):</p>
+<div class="highlight-HTML notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;rodealinea box&quot;</span>
+</pre></div>
+</div>
+<p><strong>Opdracht</strong> Maak een class “box” die de eigenschap <code class="docutils literal notranslate"><span class="pre">border</span></code> instelt op <code class="docutils literal notranslate"><span class="pre">1px</span>
+<span class="pre">solid</span> <span class="pre">black</span></code>, en voeg deze toe aan een van de rode alinea’s:</p>
+<div class="blok"><!DOCTYPE html>
+<head>
+<style>
+  .rodealinea {
+    color: red;
+  }
+  #ikbenblauw {
+    color: blue;
+  }
+
+  #ikbengroen {
+    color: green;
+  }
+  .box {
+    border: 1px solid black;
+  }
+</style>
+</head>
+<body>
+  <h1 id="ikbenblauw">Deze pagina gaan we stylen!</h1>
+  <h2 id="ikbengroen">Dit is een h2 kop</h2>
+  <div>
+    <h2>Dit is ook een h2 kop!</h2>
+      <p class="rodealinea box">Wat zullen we met <span>deze</span> alinea gaan doen?</p>
+      <p>Deze alinea wordt nog mooier dan de vorige.</p>
+  </div>
+  <div>
+    <p>De vorige alinea's zijn <span>jaloers</span> op mij.</p>
+    <p class="rodealinea">Jaloers op mij zul je bedoelen!</p>
+  </div>
+</body>
+</html></div></div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="js-vervolg.html" class="btn btn-neutral float-right" title="Actie toevoegen met JavaScript (vervolg)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="html-vervolg.html" class="btn btn-neutral float-left" title="Onderdelen van een HTML-pagina (vervolg)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, CoderDojo Nijmegen
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    // https://stackoverflow.com/a/25543713/134731 for toggle example
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+<script src="_static/scratchblocks-v3.4-min.js"></script>
+<script src="_static/translations-all-v3.4.js" charset="utf8"></script>
+
+<script>
+  function parseBlocks(codeBlock) {
+    var doc
+    var docView
+    var svg
+    // Parse the source code
+    doc = scratchblocks.parse(codeBlock.innerHTML, {languages: ['en','nl']})
+
+    // // Create a DocView with your chosen style
+    docView = scratchblocks.newView(doc, {
+      style: 'scratch3', // Or 'scratch2'
+    })
+
+    // Render to an SVG
+    svg = docView.render()
+
+    // Scratch 3 is zoomed out by default, so you probably want to do the same
+    svg.style.transform = 'scale(0.675)';
+
+    // Add that SVG to your page, etc
+    svg.style.transformOrigin = '0 0';
+    return svg
+  }
+  var codeblocks = document.getElementsByClassName("scratch")
+  var parsedBlock
+  for (i = 0; i < codeblocks.length; i++) {
+    parsedBlock = parseBlocks(codeblocks[i])
+    codeblocks[i].innerHTML = ""
+    codeblocks[i].appendChild(parsedBlock)
+  }
+
+</script>
+
+
+</body>
+</html>
