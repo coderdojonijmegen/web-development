@@ -141,11 +141,11 @@ deze zin na (zet deze bijvoorbeeld onder de kop Aarde):
 
 ### Links
 
-Een superbelangrijk onderdeel van webpagina's zijn natuurlijk *links* naar
-andere pagina's, op dezelfde site of op een andere. Denk maar eens aan
-zoekmachines! Voor het maken van een link gebruik je de `<a>` tag. Het
-*adres* van de link, dus waar deze naar verwijst, voeg je toe door het
-*attribuut* `href` in de tag te zetten met als *waarde* het adres, op deze
+Een superbelangrijk onderdeel van webpagina's zijn natuurlijk *links* die
+verwijzen naar andere pagina's, op dezelfde site of op een andere. Denk
+maar eens aan zoekmachines! Voor het maken van een link gebruik je de `<a>`
+tag. Het *adres* van de link, dus waar deze naar verwijst, voeg je toe door
+het *attribuut* `href` in de tag te zetten met als *waarde* het adres, op deze
 manier:
 
 {{< highlight html >}}
