@@ -15,9 +15,11 @@ werken (JavaScript).
 
 ## Introductie
 
-Afhankelijk van hoeveel ervaring je al hebt met deze talen kun je beginnen
-bij de basis, of een vervolgpagina kiezen. De instructies bestaan uit een
-deel uitleg met tussendoor opdrachten om te oefenen met alle onderdelen.
+Deze instructies leggen eerst de basisonderdelen van HTML uit, en gaan daarna
+in op CSS en JavaScript. Afhankelijk je ervaring met deze talen kun je het best
+bij het begin starten, of ervoor kiezen dit over te slaan. De instructies
+bestaan uit een deel uitleg met tussendoor opdrachten om te oefenen met alle
+onderdelen.
 
 ![web logo's](imgs/html-css-js-logos.png)
 
@@ -99,7 +101,8 @@ pagina toe. Zie je je naam verschijnen?
 
 Om verschillende niveau's aan te geven op een pagina kun je *koppen* gebruiken.
 Hiervoor zijn de `<h1>`, `<h2>`, `<h3>` (enzovoort) tags. Met deze tags
-kun je je pagina een duidelijke indeling geven.
+kun je je pagina een duidelijke indeling geven, zoals je kunt zien in het voorbeeld hierboven.
+
 
 **Opdracht** Tot hoe ver gaan de niveau's eigenlijk? Bestaat `<h20>`?
 
@@ -115,8 +118,8 @@ kun je je pagina een duidelijke indeling geven.
 ### De stijl van tekst
 
 Je kunt op een aantal manieren tekst extra benadrukken: door woorden **dik** te
-maken, of `schuin`. Hiervoor kun je bijvoorbeeld de tags `<b>` (voor bold) en
-`<i>` (voor italic) gebruiken. Een aantal andere tags om extra effect aan je
+maken, of `schuin`. Hiervoor kun je bijvoorbeeld de tags `<b>` (voor dik) en
+`<i>` (voor schuin) gebruiken. Een aantal andere tags om extra effect aan je
 tekst te geven zijn `<mark>` en `<del>`. De HTML-code
 
 {{< highlight html >}}
@@ -139,11 +142,11 @@ deze zin na (zet deze bijvoorbeeld onder de kop Aarde):
 
 ### Links
 
-Een superbelangrijk onderdeel van webpagina's zijn natuurlijk *links* naar
-andere pagina's, op dezelfde site of op een andere. Denk maar eens aan
-zoekmachines! Voor het maken van een link gebruik je de `<a>` tag. Het
-*adres* van de link, dus waar deze naar verwijst, voeg je toe door het
-*attribuut* `href` in de tag te zetten met als *waarde* het adres, op deze
+Een superbelangrijk onderdeel van webpagina's zijn natuurlijk *links* die
+verwijzen naar andere pagina's, op dezelfde site of op een andere. Denk
+maar eens aan zoekmachines! Voor het maken van een link gebruik je de `<a>`
+tag. Het *adres* van de link, dus waar deze naar verwijst, voeg je toe door
+het *attribuut* `href` in de tag te zetten met als *waarde* het adres, op deze
 manier:
 
 {{< highlight html >}}
@@ -231,8 +234,8 @@ geeft is hier *red*, dus rood.
 ### Spelen met kleur
 
 De kleur van tekst bepaal je met de eigenschap *color*:
-`<p style="color:....">`. Kleuren instellen kan op verschillende manieren,
-bekijk hiervoor de pagina :ref:`html-kleuren`.
+`<p style="color:green">`. Kleuren instellen kan op verschillende manieren,
+bekijk hiervoor het onderdeel :ref:`html-kleuren`.
 
 **Opdracht** Maak de tekst van de eerste alinea groen, en die van de tweede
 paars:
