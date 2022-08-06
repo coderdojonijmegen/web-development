@@ -150,7 +150,7 @@ het *attribuut* `href` in de tag te zetten met als *waarde* het adres, op deze
 manier:
 
 {{< highlight html >}}
-  <a href="https://scratch.mit.edu">
+  <a href="https://scratch.mit.edu">Klik hier!</a>
 {{< /highlight >}}
 
 **Opdracht** Probeer op deze manier maar eens een link naar je favoriete
