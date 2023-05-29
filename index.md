@@ -4,7 +4,7 @@ date: 2020-10-22T20:01:11+02:00
 draft: false
 toc: true
 headercolor: "teal-background"
-taal: HTML, CSS & JavaScript
+onderwerp: JavaScript
 ---
 
 Er zijn een paar verschillende *talen* die samen voor een belangrijk deel
