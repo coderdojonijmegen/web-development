@@ -26,25 +26,7 @@ onderdelen.
 
 ## Benodigdheden
 
-Voor deze instructies gebruiken we Visual Studio Code (VS Code) om de code te
-schrijven, en om het resultaat te bekijken. Download en installeer eerst
-VS Code:
-[Download Visual Studio Code](https://code.visualstudio.com/download)
-
-![Visual Studio Code extensie](imgs/vscode_extensions_online.png)
-
-1. Ga nu naar het Extensions menu.
-2. Zoek naar de extensie *HTML Preview*.
-3. Installeer de extensie en herstart VS Code.
-
-Om een html-pagina te laten zien in VS Code moet je op het `preview` icoon
-klikken, dit bevindt zich rechtsboven in het scherm (let op: het is alleen
-zichtbaar als je een bestand van het soort .html open hebt, niet bij
-bijvoorbeeld een .txt bestand):
-
-![preview](imgs/vscode_preview.png)
-
-Je bent nu klaar om te beginnen met de instructies!
+{{< include file="/installatie/visual-studio-code" >}}
 
 ## Onderdelen van een HTML-pagina (basis)
 
